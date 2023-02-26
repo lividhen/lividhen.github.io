@@ -6,6 +6,7 @@ This page will include the basics for modifying your 3ds's home menu. From the s
 
 
 # Prep Work
+---
 ## Requirements
 - A windows or Linux pc (maybe Mac too). 
 - A modded 3ds running Luma3ds. 
@@ -34,9 +35,9 @@ This page will include the basics for modifying your 3ds's home menu. From the s
 ## Preparing Your Home Menu for Modifications.
 
 ### Downloads
-    - [HMRT](https://github.com/schrmh/HMRT)
+[HMRT](https://github.com/schrmh/HMRT)
     
-###Steps    
+### Steps    
 1. Download and extract HMRT. 
 2. Make a copy of your home menu and name it `HomeMenu.cia`
 3. Open the HMRT script for your OS (bat is windows, sh is Linux and Mac) 
@@ -47,4 +48,5 @@ This page will include the basics for modifying your 3ds's home menu. From the s
 
 
 # The Fun Part! 
+---
 Skip to any section you would like to learn how to do. There is no particular order from this point on.
