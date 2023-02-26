@@ -26,7 +26,7 @@ This page will include the basics for modifying your 3ds's home menu. From the s
     - USA: `00008F02`
 4. Navigate to content/
 5. Select 0000000*.tmd (\* being a number) and hit "TMD file options..."
-6. Select "Build CIA (standard)
+6. Select "Build CIA (standard)" 
 7. Turn off the console, and insert the sdcard into the computer.
 8. Make a copy of your home menu CIA in sd:/gm9/out and store it somewhere safe.
 
