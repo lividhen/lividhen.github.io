@@ -7,10 +7,11 @@ This page will include the basics for modifying your 3ds's home menu. From the s
 
 
 ## Requirements
-- A windows or Linux pc (maybe Mac too)
+- A windows or Linux pc (maybe Mac too). 
 - A modded 3ds running Luma3ds. 
-- An internet connection (just for downloading tools) 
-- An SD card or Micro SD card, depending on the model of your console. 
+- An internet connection (just for downloading tools). 
+- An SD card or Micro SD card, depending on the model of your console.
+- An SD card adapter for your computer. 
 
 
 ## Obtaining Your Home Menu
