@@ -1,6 +1,6 @@
 ---
 icon: fas fa-stream
-order: 2
+order: 6
 ---
 This page will include the basics for modifying your 3ds's home menu. From the sleep screen to animations, we will be taking a look at the ideas behind most of the documentated modifications for your home menu and how to perform them.
 

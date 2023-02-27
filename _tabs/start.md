@@ -66,6 +66,3 @@ In this guide we will be using layeredfs, as it is better for faster iterations 
 4. After making edits in [Guides](/guides) select option `6` in HMRT.
 5. Place your edited file on the sdcard in the folder you just created, in the same directory structure it was in the extracted home menu.
 	- (eg. `sd:/luma/titles/0004003000008F02/romfs/sleep_LZ.bin`)
-
----
-## Next: [Guides](/guides)
