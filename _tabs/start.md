@@ -5,16 +5,16 @@ order: 1
 This page will start you off so you can make modifications to your home menu.
 
 ---
-## Requirements
-- A windows or Linux pc (maybe Mac too). 
+# Requirements
+- An x86_64 computer running Windows, Linux, or Mac Os (feedback needed for that last one) . 
 - A modded 3ds running Luma3ds. 
 - An internet connection (just for downloading tools). 
 - An SD card or Micro SD card, depending on the model of your console.
-- An SD card adapter for your computer. 
-
-
-
-## Obtaining Your Home Menu
+- An SD card adapter for your computer OR ftp access on your console. 
+  
+  
+  
+# Obtaining Your Home Menu
 1. Boot into godmode9. This will be holding start on boot for most users. 
 2. Navigate to `CTR Nand/title/00040030/`
 3. Select the tidlow for your region:
@@ -27,10 +27,10 @@ This page will start you off so you can make modifications to your home menu.
 6. Select "Build CIA (standard)" 
 7. Turn off the console, and insert the sdcard into the computer.
 8. Make a copy of your home menu CIA in sd:/gm9/out and store it somewhere safe.
-
-
-
-## Preparing Your Home Menu for Modifications.
+  
+  
+  
+# Preparing Your Home Menu for Modifications
 
 ### Downloads
 [HMRT](https://github.com/schrmh/HMRT){:target="_blank"}
@@ -44,14 +44,16 @@ This page will start you off so you can make modifications to your home menu.
 5. Then select option `5` to decompress all the files we will be editing.
 
 Note: HMRT does not work in mac paralells.
-
-
-## Layeredfs
-In this guide we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sdcard in place of the ones that are inside the application files, similar to what Magisk does on Android.
+  
+  
+  
+# Layeredfs
+In this guide we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sdcard in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android.
 
 ### On 3ds
-1. Hold select on boot and enable game patching.
-2. Hit start to save
+1. Hold select on boot. 
+2. Enable game patching.
+3. Hit start to save. 
 
 ### Sd card setup
 1. Insert your sdcard into your pc.
