@@ -4,8 +4,6 @@ order: 1
 ---
 This page will start you off so you can make modifications to your home menu.
 
-
-# Prep Work
 ---
 ## Requirements
 - A windows or Linux pc (maybe Mac too). 
@@ -63,6 +61,6 @@ In this guide we will be using layeredfs, as it is better for faster iterations 
 	- JPN: `0004003000008202`
 	- KOR: `000400300000A902`
 	- USA: `0004003000008F02`
-4. After making edits in [Guides](/guides) select option `6` in HMRT.
+4. After making edits, select option `6` in HMRT.
 5. Place your edited file on the sdcard in the folder you just created, in the same directory structure it was in the extracted home menu.
 	- (eg. `sd:/luma/titles/0004003000008F02/romfs/sleep_LZ.bin`)
