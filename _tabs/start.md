@@ -47,7 +47,7 @@ Note: HMRT does not work in mac paralells.
   
   
   
-# Layeredfs
+# LayeredFS
 In this guide we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sdcard in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android.
 
 ### On 3ds
