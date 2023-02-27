@@ -53,4 +53,4 @@ This secton goes over the basics of changing animations. They are a bit complica
 33. Right click `LncCsr_00_Loop.bclan` and hit "Replace".
 34. Open the `LncCsr_00_Loop.bclan` you just edited.
 35. Click the floppy disk save button in the top left.
-36. Try out your animation on your console by using steps 4-5 in [Start](/start#Layeredfs)!
+36. Try out your animation on your console by using steps 4-5 in [Start](/start#layeredfs)!
