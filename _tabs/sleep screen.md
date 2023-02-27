@@ -5,12 +5,12 @@ order: 2
 
 This section teaches you about modifying the sleep screen.
 
-### You will need
+# You will need
 [MSBT Editor](https://github.com/IcySon55/3DLandMSBTeditor/releases){:target="_blank"}\
 [Color Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=461605719&range=A1){:target="_blank"} `sleep_LZ.bin (moderated)` tab.\
 A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:target="_blank"}
 
-#### Changing Text
+# Changing Text
 1. Extract and open MsbtEditor.exe
 2. Select `File >> Open` and navigate to your HMRT folder from [Start](/start#preparing-your-home-menu-for-modifications).
 3. Navigate to `ExtractedRomFS/message`.
@@ -30,7 +30,7 @@ A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:
 7. Edit any text you would like. For newlines, copy the weird looking character and paste it wherever you would like to go to the next line.
 8. When finished with your edits, click save.
 
-#### Changing Colors
+# Changing Colors
 1. Navigate to your HMRT folder from [Start](/start#preparing-your-home-menu-for-modifications).
 2. Navigate to `ExtractedRomFS`.
 3. Open `sleep.lz` in HxD, or your prefered hex editor.
