@@ -5,11 +5,11 @@ order: 4
 
 In this secton we will look at how to move assets.
 
-### What you will need
+# What you will need
 A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:target="_blank"}\
 [Asset Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=1696778699&range=A1){:target="_blank"}
 
-### Moving wifi, play coins, and other assets.
+# Moving wifi, play coins, and other assets.
 1. Navigate to your HMRT folder from [Start](/start#preparing-your-home-menu-for-modifications)
 2. Open hud.LZ in HxD or another hex editor.
 3. Locate the name of the asset you want to move in the [asset documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=1696778699&range=A1){:target="_blank"} under the `Name` column.
