@@ -5,11 +5,11 @@ order: 3
 
 This secton goes over the basics of changing animations. They are a bit complicated. We will be using the example of a spinning cursor (Thanks sven64!).
 
-### You will need
+# You will need
 [Switch toolbox](https://github.com/KillzXGaming/Switch-Toolbox){:target="_blank"}\
 [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2){:target="_blank"}
 
-### Spinning Cursor
+# Spinning Cursor
 1. Extract and launch Kuriimu2.exe.
 2. Install the .Net 3 framework if it asks you to.
 3. Select `File >> Open`.
@@ -53,4 +53,4 @@ This secton goes over the basics of changing animations. They are a bit complica
 33. Right click `LncCsr_00_Loop.bclan` and hit "Replace".
 34. Open the `LncCsr_00_Loop.bclan` you just edited.
 35. Click the floppy disk save button in the top left.
-36. Try out your animation on your console!
+36. Try out your animation on your console by using step 6 in [Start](/start#Layeredfs)!
