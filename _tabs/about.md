@@ -4,7 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
 
-Hello!
+> This page is a guide for modifying your home menu on your nintendo 3ds. You will need a 3ds running custom firmware. You can find a wonderful guide [here](https://3ds.hacks.guide)!

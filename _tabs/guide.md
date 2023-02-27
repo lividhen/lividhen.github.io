@@ -44,9 +44,12 @@ This page will include the basics for modifying your 3ds's home menu. From the s
     - The windows version of HMRT can have some issues. If you run in to any just use the Linux sh script in Wsl. 
 4. Select the option for Full Rebuild. 
 
+Note: HMRT does not work in mac paralells.
 
 
 
 # The Fun Part! 
 ---
 Skip to any section you would like to learn how to do. There is no particular order from this point on.
+
+
