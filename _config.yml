@@ -14,12 +14,12 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: America/Denver
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Menu Modding Guide                          # the main title
+title: Home Modding                          # the main title
 
 tagline: A guide for modding your 3DS's home menu   # it will display as the sub-title
 
