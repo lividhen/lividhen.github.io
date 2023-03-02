@@ -34,10 +34,10 @@ A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:
 # Changing Colors
 1. Navigate to your HMRT folder from [Start](/start#preparing-your-home-menu-for-modifications).
 2. Navigate to `ExtractedRomFS`.
-3. Open `sleep.lz` in HxD, or your prefered hex editor.
+3. Open `sleep.lz` in HxD, or your preferred hex editor.
 4. Open the [color documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=461605719&range=A1){:target="_blank"} and find the asset you would like to recolor.
 5. Hit Ctrl + G.
-6. Copy and paste the offset from the `Offsets (hexidecimal)` column.
+6. Copy and paste the offset from the `Offsets (hexadecimal)` column.
 7. Locate the value from the `Color (hex)` column.
 8. Replace it with whatever color you like.
 9. When finished editing, save the file.
