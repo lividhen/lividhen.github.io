@@ -29,6 +29,7 @@ A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:
     - lau_press_pow5_flw
 7. Edit any text you would like. For newlines, copy the weird looking character and paste it wherever you would like to go to the next line.
 8. When finished with your edits, click save.
+9. Make sure everything is formatted correctly by using steps 4-5 in [Start](/start#layeredfs)!
 
 # Changing Colors
 1. Navigate to your HMRT folder from [Start](/start#preparing-your-home-menu-for-modifications).
@@ -40,3 +41,4 @@ A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:
 7. Locate the value from the `Color (hex)` column.
 8. Replace it with whatever color you like.
 9. When finished editing, save the file.
+10. See if you like the color by using steps 4-5 in [Start](/start#layeredfs)!

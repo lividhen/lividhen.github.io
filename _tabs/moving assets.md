@@ -20,3 +20,4 @@ A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:
 8. After moving 24 spaces you are on the X position. The next four colums define that.
 9. Just past the X position is the Y position. The next four columns define the Y position.
 10. After making your changes, save the file.
+11. See if your assets are in the correct spot by using steps 4-5 in [Start](/start#layeredfs)!
