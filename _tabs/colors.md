@@ -5,7 +5,7 @@ order: 5
 
 This section teaches you how to change asset colors.
 
-#What you will need
+# What you will need
 A hex editor such as [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20){:target="_blank"}\
 The [launcher_LZ.bin](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=1943849394&range=A1:A2){:target="_blank"} and [hud_LZ.bin](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg/edit#gid=1696778699&range=A1){:target="_blank"} tabs of the HOME Menu Asset Documentation
 
