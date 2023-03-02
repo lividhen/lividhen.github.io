@@ -2,7 +2,7 @@
 icon: fas fa-stream
 order: 1
 ---
-This page will start you off so you can make modifications to your home menu.
+This page contains the prerequisites for the rest of the guide. Complete everything here before moving to any other modules!
 
 ---
 # Requirements
@@ -66,3 +66,8 @@ In this guide we will be using layeredfs, as it is better for faster iterations 
 4. After making edits, select option `6` in HMRT.
 5. Place your edited file on the sdcard in the folder you just created, in the same directory structure it was in the extracted home menu.
 	- (eg. `sd:/luma/titles/0004003000008F02/romfs/sleep_LZ.bin`)
+
+---
+
+# You are done!
+You can now move to any other module in the guide. There is no order to them, just look at what you wish to do!
