@@ -24,6 +24,6 @@ The [launcher_LZ.bin](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaX
 10. Find the hexadecimal value of the color you would like to change it to.
 	- There are several online resources to do this for you.
 11. Replace the old color value with your new one.
-	- For example, if the old color was `46 46 46` (green), you would replace it with say, `89 CF F0` (blue).
+	- For example, if the old color was `46 46 46` (gray), you would replace it with say, `89 CF F0` (blue).
 12. Hit ctrl + S or go to File >> Save to save the file.
 13. Test your changes by using steps 4-5 in [Start](/start#layeredfs)!
