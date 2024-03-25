@@ -1,2 +1,2 @@
-# Menu Modding Guide
+# 3DS Home Menu Modding Guide
 https://menumod.chickenserver.org
