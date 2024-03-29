@@ -3,9 +3,10 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+<<<<<<< HEAD
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ''
+baseurl: 'modmenu.chickenserver.org"
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -39,10 +40,10 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: lividhen
-  email: lividhen@duck.com             # change to your email address
+  email: lividhen@chickenserver.org             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://chickenserver.org     # change to your twitter homepage
+    - https://menumod.chickenserver.org     # change to your twitter homepage
     - https://github.com/lividhen       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -54,11 +55,10 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+  id: # fill in your Google Analytics ID
+
+goatcounter:
+  id: # fill in your Goatcounter ID
 
 # Prefer color scheme setting.
 #
@@ -109,15 +109,25 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled:      # boolean, keep empty means false
+    enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
+    env: # [development | production]
 
 pwa:
-  enabled: true   # the option for PWA feature
+  enabled: true # the option for PWA feature (installable)
+  cache:
+    enabled: true # the option for PWA offline cache
+    # Paths defined here will be excluded from the PWA cache.
+    # Usually its value is the `baseurl` of another website that
+    # shares the same domain name as the current website.
+    deny_paths:
+      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+
+# The base URL of your site
+baseurl: "menumod.chickenserver.org"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -153,8 +163,8 @@ defaults:
     values:
       comments: false
   - scope:
-      path: ''
-      type: tabs             # see `site.collections`
+      path: ""
+      type: tabs # see `site.collections`
     values:
       layout: page
       permalink: /:title/
@@ -180,14 +190,13 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
+  - "*.gem"
+  - "*.gemspec"
+  - docs
   - tools
   - README.md
-  - CHANGELOG.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
+  - rollup.config.js
   - package*.json
 
 jekyll-archives:
