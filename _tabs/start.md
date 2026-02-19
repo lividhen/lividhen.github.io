@@ -48,7 +48,7 @@ Note: HMRT does not work in mac parallels.
   
   
 # LayeredFS
-In this guide, we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sd card in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android.
+In this guide, we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sd card in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android. While perfect for creating your home menu, returning to the home menu from an app too many times will cause the 3ds to crash. After completing your modifications please install it as a cia.
 
 ### On 3ds
 1. Hold select on boot. 
@@ -64,8 +64,18 @@ In this guide, we will be using layeredfs, as it is better for faster iterations
 	- KOR: `000400300000A902`
 	- USA: `0004003000008F02`
 4. After making edits, select option `6` in HMRT.
-5. Place your edited file on the SD card in the folder you just created, in the same directory structure it was in the extracted home menu.
+5. Place your edited file on the SD card in the folder you just created, in the same directory structure it was in the extracted home menu using ftp, smb or an sd card reader.
 	- (eg. `sd:/luma/titles/0004003000008F02/romfs/sleep_LZ.bin`)
+
+
+
+# Installing as a cia
+1. Use options `6` then `2` in HMRT to build a cia.
+2. Move the cia you just built to your sd card.
+3. Boot into gm9 and select the cia file, then `CIA image options`, then `Encrypt file`.
+4. Use gm9 or fbi to install the newly encrypted cia.
+5. Use gm9, ftp, smb or an sd card reader to delete your previous patches from the sd card.
+6. Reboot.
 
 ---
 
