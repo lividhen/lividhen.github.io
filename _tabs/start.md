@@ -6,7 +6,7 @@ This page contains the prerequisites for the rest of the guide. Complete everyth
 
 ---
 # Requirements
-- An x86_64 computer running Windows, Linux, or Mac Os (feedback needed for that last one.) 
+- An x86_64 computer running Windows, Linux, or Mac OS (feedback needed for that last one.) 
 - A modded 3ds running Luma3ds. 
 - An internet connection (just for downloading tools). 
 - An SD card or Micro SD card, depending on the model of your console.
@@ -27,8 +27,8 @@ This page contains the prerequisites for the rest of the guide. Complete everyth
 4. Navigate to `content/`
 5. Select `0000000*.tmd` (\* being a number) and hit "TMD file options..."
 6. Select "Build CIA (standard)" 
-7. Turn off the console, and insert the SD card into the computer.
-8. Make a copy of your home menu CIA in sd:/gm9/out and store it somewhere safe.
+7. Once it is finished turn off the console, and insert the SD card into the computer or connect via ftp.
+8. Make a copy of your home menu CIA (in sd:/gm9/out) and store it somewhere safe, ideally in multiple physical locations.
   
   
   
@@ -39,7 +39,7 @@ This page contains the prerequisites for the rest of the guide. Complete everyth
     
 ### Steps    
 1. Download and extract HMRT. 
-2. Make a copy of your home menu and name it `HomeMenu.cia`
+2. Make a copy of your home menu, name it `HomeMenu.cia` and place it in the same directory as the HMRT script.
 3. Open the HMRT script for your OS (bat is windows, sh is Linux and Mac) 
     - The windows version of HMRT can have some issues. If you run into any just use the Linux sh script in WSL. 
 4. Select option `1` to extract your home menu CIA. 
@@ -50,7 +50,7 @@ Note: HMRT does not work in mac parallels.
   
   
 # LayeredFS
-In this guide, we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sd card in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android. While perfect for creating your home menu, returning to the home menu from an app too many times will cause the 3ds to crash. After completing your modifications please install it as a cia.
+In this guide, we will be using layeredfs, as it is better for faster iterations and is easier to undo if you break something. Files are loaded from the sd card in place of the ones that are inside the application files, similar to what [Magisk](https://github.com/topjohnwu/Magisk){:target="_blank"} does on Android. While perfect for creating your home menu due to fast iteration, returning to the home menu from an app too many times will cause the 3ds to crash. After completing your modifications please install it as a cia.
 
 ### On 3ds
 1. Hold select on boot. 
@@ -65,7 +65,7 @@ In this guide, we will be using layeredfs, as it is better for faster iterations
 	- JPN: `0004003000008202`
 	- KOR: `000400300000A902`
 	- USA: `0004003000008F02`
-4. After making edits, select option `6` in HMRT.
+4. After making edits, select option `6` in HMRT to compress everything again.
 5. Place your edited file on the SD card in the folder you just created, in the same directory structure it was in the extracted home menu using ftp, smb or an sd card reader.
 	- (eg. `sd:/luma/titles/0004003000008F02/romfs/sleep_LZ.bin`)
 
