@@ -18,9 +18,11 @@ This page contains the prerequisites for the rest of the guide. Complete everyth
 1. Boot into godmode9. This will be holding start on boot for most users. 
 2. Navigate to `CTR Nand/title/00040030/`
 3. Select the tidlow for your region:
+    - CHN: `0000A102`
     - EUR: `00009802`
     - JPN: `00008202`
     - KOR: `0000A902`
+    - TWN: `0000B102`
     - USA: `00008F02`
 4. Navigate to `content/`
 5. Select `0000000*.tmd` (\* being a number) and hit "TMD file options..."
